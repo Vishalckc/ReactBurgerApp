@@ -6,6 +6,9 @@ Project Demo:
 ![GitHub Logo](https://github.com/Vishalckc/ReactBurgerApp/blob/master/public/images/burger.PNG?raw=true)
 
 ## Overview
-- A reactive and playful Burger creating SPA. Give life to your website by using react components by starting to use this as a baseline react app!!
+- A reactive and playful Burger application. Give life to your website by using this baseline react app!!
 
 * For PR/Feature request, create a new issue
+## Booting the application
+1) npm install (Node Package manager should be installed)
+2) npm start (runs on default http://localhost:3000)
