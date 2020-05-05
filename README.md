@@ -16,3 +16,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Booting the application
 1) npm install (Node Package manager should be installed)
 2) npm start (runs on default http://localhost:3000)
+
+Adding http support soon...
