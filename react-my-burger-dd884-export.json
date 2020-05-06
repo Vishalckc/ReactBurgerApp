@@ -1,0 +1,29 @@
+{
+  "ingredients" : {
+    "bacon" : 0,
+    "cheese" : 0,
+    "meat" : 0,
+    "salad" : 0
+  },
+  "orders" : {
+    "-M6epqxNeujM7euan7e0" : {
+      "customer" : {
+        "address" : {
+          "country" : "UK",
+          "street" : "This street",
+          "zipcode" : "000000"
+        },
+        "email" : "test@test.com",
+        "name" : "Joe Hahn"
+      },
+      "deliveryMethod" : "fastest",
+      "ingredients" : {
+        "bacon" : 1,
+        "cheese" : 0,
+        "meat" : 0,
+        "salad" : 1
+      },
+      "price" : 5.2
+    }
+  }
+}
