@@ -29,6 +29,7 @@ Using WrappedComponent higher order components for error handling
 -After creating DB, use the firebase db-url you get (e.g https://react-my-burger-dd884.firebaseio.com/) to replace the POST query in the burger-app POST method
 
 ALSO Import this json in your firebase DB:
+```
 {
   "ingredients" : {
     "bacon" : 0,
@@ -60,3 +61,4 @@ ALSO Import this json in your firebase DB:
 }
 
 
+```
