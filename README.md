@@ -24,11 +24,11 @@ Get/Post in with Google Firebase backend
 Using WrappedComponent higher order components for error handling
 
 ## Using Firebase as backend
-1 Create a new project in Google firebase
-2 Create a new db (set read, write rules to true)
-3 After creating DB, use the firebase db url (e.g https://react-my-burger-dd884.firebaseio.com/) to replace post query in axios post method
-4 Lastly import this JSON, or create your own json if necessary
----------------------------------------------------------------
+-Create a new project in Google firebase https://console.firebase.google.com/u/0/
+-Go to cloud firestore and create a new db (set read, write rules to true)
+-After creating DB, use the firebase db-url you get (e.g https://react-my-burger-dd884.firebaseio.com/) to replace the POST query in the burger-app POST method
+
+ALSO Import this json in your firebase DB:
 {
   "ingredients" : {
     "bacon" : 0,
