@@ -85,13 +85,16 @@ class BurgerBuilder extends Component {
   };
 
   purchaseContinueHandler = () => {
-    this.setState({ loading: true });
+
+    this.props.history.push('/checkout');
+
+    /* this.setState({ loading: true });
     const order = {
       ingredients: this.state.ingredients,
       price: this.state.totalPrice,
       customer: {
         name: "Joe Hahn",
-        address: {
+        address: {'/checkout';
           street: "This street",
           zipcode: "000000",
           country: "UK",
@@ -109,7 +112,7 @@ class BurgerBuilder extends Component {
       .catch((error) => {
         console.log(error);
         this.setState({ loading: false, purchasing: false });
-      });
+      }); */
   };
 
   render() {
