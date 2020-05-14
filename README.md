@@ -23,6 +23,8 @@ Get/Post using axios instance along with Google Firebase as a backend
 ## Error Handling Included
 Using WrappedComponent (higher order components) for error handling
 
+## Dynamic checkout form added
+
 ## Using Firebase as backend
 1. Create a new project in Google firebase https://console.firebase.google.com/u/0/
 2. Go to cloud firestore and create a new db (set read, write rules to true)
